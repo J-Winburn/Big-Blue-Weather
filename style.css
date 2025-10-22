@@ -1,0 +1,170 @@
+/*FONT IMPORT*/
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
+
+body {
+  background-color: #0033A0; 
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-top: 30px;
+  padding-bottom: 50px;
+}
+
+/*HEADERS*/
+h1.ui.header {
+  color: #fff !important;
+  font-size: 3em;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align: center;
+  border-bottom: 4px solid goldenrod;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+h2.ui.header {
+  color: goldenrod !important;
+  font-size: 1.8em;
+  text-align: center;
+  font-weight: 600;
+}
+
+h3 {
+  color: #0033A0;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 10px;
+  border-bottom: 2px solid goldenrod;
+  padding-bottom: 5px;
+  
+}
+
+/*SEGMENTS*/
+.ui.segment {
+  background-color: white !important;
+  color: #0033A0;
+  border-radius: 12px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+  margin-bottom: 25px;
+}
+
+/*TABLE*/
+#current-table {
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+#current-table th {
+  background-color: #0033A0;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+#current-table td {
+  color: #0033A0;
+  background-color: #FAFAFA;
+  font-weight: 600;
+}
+
+.table-icon {
+  height: 60px;
+  width: 60px;
+  margin-bottom: 5px;
+}
+
+.icon-cell {
+  text-align: center;
+  font-weight: 600;
+  color: #0033A0;
+}
+
+/*HOURLY FORECAST*/
+#hourly-forecast {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  overflow-x: auto;
+  gap: 10px;
+  padding: 10px 0;
+}
+
+/*Hour Cards*/
+.hour-card {
+  max-width: 120px;
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  transition: transform 0.2s ease;
+}
+
+.hour-card:hover {
+  transform: scale(1.05);
+}
+
+.hour-card img {
+  height: 35px;
+  width: 35px;
+  margin: 5px 0;
+
+}
+
+.hour-card .time {
+  font-weight: bold;
+  color: #0033A0;
+  margin-bottom: 5px;
+}
+.hour-card .temp {
+  font-size: 1.1em;
+  font-weight: 600;
+}
+
+
+/*DAILY FORECAST*/
+.forecast-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.ui.card {
+  background-color: white !important;
+  border-top: 4px solid #0033A0 !important;
+  border-radius: 10px !important;
+  align-content: center;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.ui.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+.small-weather-icon {
+  height: 40px;
+  width: 40px;
+  margin-bottom: 5px;
+  
+}
+
+/*BUTTON*/
+#refresh.ui.button {
+  background-color: #1e8aff !important;
+  color: white !important;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: background-color 0.2s ease;
+  display: block;
+  margin: 20px auto;
+}
+
+#refresh.ui.button:hover {
+  background-color: #D6D2C4 !important;
+}

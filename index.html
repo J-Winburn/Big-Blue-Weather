@@ -1,0 +1,56 @@
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Big Blue Forecast</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui/dist/semantic.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+  </head>
+
+  <body class="ui container">
+    <h1 class="ui header center aligned" >Big Blue Forecast</h1>
+    <h2 class ="ui header center aligned">Lexington, KY</h2>
+
+  <div id="current" class="ui segment">
+  <h3>Current Conditions</h3>
+  
+
+  <table class="ui celled table center aligned" id="current-table">
+    <thead>
+      <tr>
+        <th>Temperature</th>
+        <th>Sky Conditions</th>
+        <th>Pressure</th>
+        <th>Wind</th>
+        <th>Precipitation</th>
+        <th>Humidity</th>
+        <th>UV Index</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr id="current-values">
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+        
+    <div id="hourly" class="ui segment">
+      <h3>The Next 8 Hours </h3>
+      <div id="hourly-forecast" class="ui cards forecast-container"></div>
+    </div>
+
+    <div id="daily" class="ui segment">
+      <h3>10-Day Forecast</h3>
+      <div id="daily-forecast" class="ui cards forecast-container"></div>
+    </div>
+<button id="refresh" class="ui refresh button">Refresh</button>
+    
+
+    <script src="script.js"></script>
+  </body>
+</html>
