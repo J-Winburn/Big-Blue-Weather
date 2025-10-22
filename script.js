@@ -3,7 +3,7 @@ const STATION_ID = 81414;
 
 // Fetch forecast data
 async function getForecast() {
-  const url = `/api/APIforecast`;
+  const url = `/api/forecast`;
   const res = await fetch(url);
   const data = await res.json();
   console.log("API data:", data);
