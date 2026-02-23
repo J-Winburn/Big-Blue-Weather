@@ -5,4 +5,4 @@ Check it out using the link below
 
 Link to website: https://big-blue-weather-2vi9z9etx-jared-winburns-projects.vercel.app/
 
-Or simply click on deployments to be redirected
+Link for Tempest API Documentation: https://apidocs.tempestwx.com/reference/quick-start
