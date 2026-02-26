@@ -7,4 +7,4 @@ Link to website: https://big-blue-weather-2vi9z9etx-jared-winburns-projects.verc
 
 Link for Tempest API Documentation: https://apidocs.tempestwx.com/reference/quick-start
 
-Link for UI Icons: github.com/basmilius/weather-icons
+Link for UI Icons: https://github.com/basmilius/weather-icons
